@@ -1,0 +1,20 @@
+{
+  "name": "boardgames-api",
+  "version": "1.0.0",
+  "description": "Minimal Express + Sequelize API with a single BoardGame model",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "import:csv": "node scripts/import-csv.js ./boardgame.csv"
+  },
+  "dependencies": {
+    "csv-parse": "^6.1.0",
+    "dotenv": "^16.6.1",
+    "express": "^4.19.2",
+    "pg": "^8.16.3",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.37.7",
+    "sqlite3": "^5.1.7"
+  }
+}
